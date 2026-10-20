@@ -1,0 +1,25 @@
+# Skill listing measured via YAML frontmatter parse (base a65dcee vs target 8f35f68)
+skills: base=29 target=28; removed=['decision-hold-lifecycle'] added=[]
+total description chars: base=11312 target=6142 (46% smaller)
+skill                               base  target
+afk                                  920     351
+bearings                             762     395
+bootstrap-diagnostics                740     637
+fmx-respond                          703     324
+process-event-sources                625     277
+quiet                                592     254
+firstmate-coding-guidelines          583     180
+stuck-crewmate-recovery              539     336
+updatefirstmate                      517     200
+secondmate-provisioning              514     190
+captain-hold-lifecycle               438     269
+harness-adapters                     433     226
+firstmate-self-repo                  407     360
+stow                                 406     294
+ask-user-authority                   398      83
+firstmate-codexapp                   337     195
+project-management                   317     140
+diagnostic-reasoning                 272      76
+quota-array-dispatch                 249      86
+firstmate-orca                       243     176
+approx budget @200k ctx (1% * ~4 chars/token) = 8000 chars: base fits=False target fits=True
